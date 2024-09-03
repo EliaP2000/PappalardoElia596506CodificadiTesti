@@ -1,0 +1,183 @@
+html {
+    background-color            : #ECE3D2;
+ }
+body  {
+    font-family                 : 'Source Serif Pro', serif;
+    text-align                  : justify;
+    margin                      : 0;
+}
+
+#introduzione{
+    height                     : auto;
+    margin                     : 4%;
+    line-height: 17px;
+    line-break: strict;
+}
+.titolo {
+    font-family                 : "Book Antiqua", serif; ;
+    font-size                   : 70px;
+    text-align                  : center;
+    text-shadow: 6px 5px #b1ced6;
+    color: #7A787C;
+    margin:4%
+}
+h2 {
+    font-family                 : "Book Antiqua", serif;
+    font-size                   : 35px;
+    text-align                  : center;
+    color                       : #b1ced6
+}
+
+/* Menu */
+nav {
+    width                       : 100%;
+    opacity                     : 0.6;
+}
+
+ul {
+    margin                      : 4%;
+    padding                     : 0;
+    list-style                  : none;
+    display                     : flex;
+    justify-content             : center;
+    z-index                     : 10;
+}
+ul li {
+    text-align                  : center;
+    flex-grow                   : 1;
+    transition-duration         : 1s;
+    background-color            : #b1ced6;
+}
+ul li:hover {
+    
+    background-color            : #b1ced6;
+}
+ul li a {
+    display                     : block;
+    padding                     : 20px;
+    text-decoration             : none;
+    font-size                   : 24px;
+    transition-property         : color;
+    color                       : black;
+    font-family                 : 'Source Serif Pro', serif;
+    font-weight                 : bold;
+    transition-duration         : 1s;
+}
+ul li a:hover {
+    color                       : #000000
+}
+
+/*  div  */
+.cont {
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: #b1ced6;
+}
+.informazioni {
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    color: #a97c79;
+    font-size: 20px
+}
+.testo {
+    line-height: 10px;
+    float: right;
+    line-break: auto;
+    height: auto;
+    width: auto;
+    margin-top: 5%
+}
+.persone {
+    display: flex;
+    justify-content: center;
+    border-color: #843C44;
+    border-style: solid;
+    background-color:#b1ced6;
+    margin-right:2%;
+}
+.persona {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.descr {
+    text-align: center;
+}
+.lingua{
+    text-align: center;
+}
+
+.archivio {
+    margin-top: 0%;
+    margin-left:0%;
+    text-align: center;
+}
+
+.suddivision{
+    line-height: 10px;
+    text-align: center;
+    line-break: auto;
+    height: auto;
+    width: auto;
+    margin-top: 5%;
+    display: block; 
+    margin: 0 auto;
+    display: block
+}
+
+.span{
+    position: absolute;
+    border: 2px solid red;
+    background-color: rgba(255, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+/*  immagine  */
+
+.immagine {
+    display                     : flex;
+    justify-content             : left;
+    align-items                 : center;
+    margin-top                  : 7%;
+
+}
+.zone{
+    opacity: 1.0;
+}
+
+#crediti {
+    height                     : auto;
+    line-height: 10px;
+    line-break: strict;
+    margin: 4%;
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: #b1ced6;
+}
+#crediti h1{
+    font-family                 : "Book Antiqua", serif; 
+    font-size                   : 35px;
+    text-align                  : center;
+    text-shadow: 6px 5px #b1ced6;
+    color: #7A787C;
+}
+#crediti div {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    justify-content: space-evenly;
+    margin                     : 0.5%;
+    padding: 0.5%
+}
+#crediti div p {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    margin-top: 0.5%;
+    margin-bottom: 1.5%
+}
