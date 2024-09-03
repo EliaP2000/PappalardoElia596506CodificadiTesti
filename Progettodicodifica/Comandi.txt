@@ -1,0 +1,3 @@
+java -cp "Xerces-J-bin.2.12.1/xerces-2_12_1/*" dom.Counter -v main.xml
+
+java -cp saxon-he-10.3.jar net.sf.saxon.Transform -t -s:C:\Users\Utente\Desktop\CodificadiTesti\Progettodicodifica\main.xml      -xsl:C:\Users\Utente\Desktop\CodificadiTesti\Progettodicodifica\style.xsl -o:C:\Users\Utente\Desktop\CodificadiTesti\Progettodicodifica\main.html
